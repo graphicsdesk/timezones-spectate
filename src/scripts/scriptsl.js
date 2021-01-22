@@ -4,7 +4,7 @@ var article = container.select('article');
 const stepSel = article.selectAll('.step');
 
 
-$(document).ready(function () {
+document.addEventListener('DOMContentLoaded', function () {
 	var margin, svg;
 
 	$(window).on('resize', function () {
@@ -73,7 +73,7 @@ $(document).ready(function () {
 	else {
 		// set the dimensions and margins of the graph
 		margin = { top: 30, right: 80, bottom: 30, left: 80 },
-			width = window.innerWidth * 1 - margin.left - margin.right,
+			width = document.body.clientWidth * 1 - margin.left - margin.right,
 			height = window.innerHeight * 0.95 - margin.top - margin.bottom;
 
 		// append the svg object to the body of the page
@@ -163,7 +163,6 @@ function render(margin, svg) {
 
 		// scrollama event handlers
 		function handleStepEnter(response) {
-			console.log(response)
 			updateChart(response.index)
 			response.element.classList.add("is-active");
 		}
@@ -173,7 +172,6 @@ function render(margin, svg) {
 			var datanew = data
 				.filter(function (d) {
 					if (+d.npbysem == index) {
-						console.log(+d.np)
 						return d.hour;
 					}
 				})
@@ -235,7 +233,7 @@ function render(margin, svg) {
 				.duration(1000)
 				.attr("x", 1)
 				.attr("transform", function (d) { return "translate(" + x(d.x0) + "," + y(d.length) + ")"; })
-				.attr("width", function (d) { return x(d.x1) - x(d.x0) - 1; })
+				.attr("width", function (d) { return x(d.x1) - x(d.x0) ; })
 				.attr("height", function (d) { return height - y(d.length); })
 				.style("fill", "#5168A6")
 				.attr("opacity", "90%")
