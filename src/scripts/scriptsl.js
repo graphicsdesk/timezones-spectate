@@ -21,7 +21,7 @@ d3.selectAll("svg")
 	.style("background-color", "#2B2F77");
 
 
-d3.csv("sl.csv", function(data) {
+d3.csv(require("./sl.csv"), function(data) {
 
     // List of groups (here I have one group per column)
     var allGroup = d3.map(data, function(d){return(d.npbysem)}).keys()
@@ -84,16 +84,14 @@ d3.csv("sl.csv", function(data) {
 
 	// scrollama event handlers
 	function handleStepEnter(response) {
-		console.log(response)
 		updateChart(response.index)
 		response.element.classList.add("is-active");
 	}
 
 	function updateChart(index) {
-	    //filter data by semester
+			//filter data by semester
 	    var datanew = data
 	      .filter(function(d){ if (+d.npbysem == index){
-	      		console.log(+d.np)
 	          return d.hour;
 	        }
 	      })
@@ -151,7 +149,7 @@ d3.csv("sl.csv", function(data) {
 	        .duration(1000)
 	          .attr("x", 1)
 	          .attr("transform", function(d) { return "translate(" + x(d.x0) + "," + y(d.length) + ")"; })
-	          .attr("width", function(d) { return x(d.x1) - x(d.x0) -1 ; })
+	          .attr("width", function(d) { return x(d.x1) - x(d.x0) ; })
 	          .attr("height", function(d) { return height - y(d.length); })
 	          .style("fill", "#5168A6")
 	          .attr("opacity", "90%")
