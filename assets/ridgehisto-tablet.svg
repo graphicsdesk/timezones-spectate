@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.2" baseProfile="tiny" id="g-ridgehisto-_1_-tablet-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" viewBox="0 0 600 930.448" xml:space="preserve">
 <g>
 	<rect x="0.003" y="0.329" fill="#201C38" width="600" height="929.624"/>
@@ -203,7 +203,7 @@
 	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="18.401" y1="578.835" x2="584.693" y2="578.835"/>
 	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="18.401" y1="370.209" x2="584.693" y2="370.209"/>
 	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="17.229" y1="267.352" x2="583.521" y2="267.352"/>
-	<g>
+	<g style="opacity:0.4;">
 		
 			<line fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" x1="208.105" y1="161.452" x2="208.105" y2="163.452"/>
 		
@@ -211,7 +211,7 @@
 		
 			<line fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" x1="208.524" y1="785.461" x2="208.526" y2="787.461"/>
 	</g>
-	<g>
+	<g style="opacity:0.4;">
 		
 			<line fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" x1="112.309" y1="160.482" x2="112.311" y2="162.482"/>
 		
@@ -219,8 +219,9 @@
 		
 			<line fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" x1="112.73" y1="784.49" x2="112.731" y2="786.49"/>
 	</g>
-	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="16.514" y1="160.482" x2="16.936" y2="786.49"/>
-	<g>
+	
+		<line style="opacity:0.4;" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="16.514" y1="160.482" x2="16.936" y2="786.49"/>
+	<g style="opacity:0.4;">
 		
 			<line fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" x1="301.263" y1="158.541" x2="301.264" y2="160.541"/>
 		
@@ -228,14 +229,14 @@
 		
 			<line fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" x1="301.683" y1="782.55" x2="301.685" y2="784.55"/>
 	</g>
-	<g>
+	<g style="opacity:0.4;">
 		
 			<line fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" x1="396.179" y1="158.541" x2="396.18" y2="160.541"/>
 		
 			<line fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" stroke-dasharray="4.013,4.013" x1="396.183" y1="164.554" x2="396.598" y2="780.543"/>
 		<line fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" x1="396.6" y1="782.55" x2="396.601" y2="784.55"/>
 	</g>
-	<g>
+	<g style="opacity:0.4;">
 		
 			<line fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" x1="489.337" y1="160.482" x2="489.339" y2="162.482"/>
 		
@@ -243,7 +244,7 @@
 		
 			<line fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" x1="489.758" y1="784.49" x2="489.759" y2="786.49"/>
 	</g>
-	<g>
+	<g style="opacity:0.4;">
 		
 			<line fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" x1="590.246" y1="160.482" x2="590.248" y2="162.482"/>
 		
@@ -251,5 +252,29 @@
 		
 			<line fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" x1="590.671" y1="784.49" x2="590.672" y2="786.49"/>
 	</g>
+	<g>
+		<line fill="#FFFCFC" x1="228.805" y1="285.88" x2="295.71" y2="285.88"/>
+		<g>
+			
+				<line fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-miterlimit="10" x1="228.805" y1="285.88" x2="282.421" y2="285.88"/>
+			<g>
+				<polygon fill="#FFFFFF" points="279.449,290.238 295.71,285.88 279.449,281.522 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<line fill="#FFFCFC" x1="134.815" y1="601.365" x2="47.401" y2="601.365"/>
+		<g>
+			
+				<line fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-miterlimit="10" x1="134.815" y1="601.365" x2="60.69" y2="601.365"/>
+			<g>
+				<polygon fill="#FFFFFF" points="63.662,597.007 47.401,601.365 63.662,605.723 				"/>
+			</g>
+		</g>
+	</g>
 </g>
+<style>
+#g-ridgehisto-_1_-tablet-img rect, #g-ridgehisto-_1_-tablet-img circle, #g-ridgehisto-_1_-tablet-img path, #g-ridgehisto-_1_-tablet-img line, #g-ridgehisto-_1_-tablet-img polyline { vector-effect: non-scaling-stroke; }
+</style>
 </svg>
+

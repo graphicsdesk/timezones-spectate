@@ -51,7 +51,7 @@
           },
           {
             "type": "text",
-            "value": "To cope with the academic challenges created by the time difference, many international students are choosing to only fulfill the minimum credit requirement. Yet even then, this choice does not completely solve the problems international students face. “I was ridiculously burnt out for how little I was doing,” says Reichert. She has also squeezed her classesOthers are squeezing their classes to only two nights per week in order to maintain a regular schedule for the five other days."
+            "value": "To cope with the academic challenges created by the time difference, many international students are choosing to only fulfill the minimum credit requirement. Yet even then, this choice does not completely solve the problems international students face. “I was ridiculously burnt out for how little I was doing,” says Reichert, who squeezed her classesOthers are squeezing their classes to only two nights per week in order to maintain a regular schedule for the five other days."
           },
           {
             "type": "graphic",
@@ -74,12 +74,24 @@
           {
             "type": "text",
             "value": "<i>Jun Yi Zhang is a Graphics deputy editor. She can be contacted at </i><a href=\"mailto:junyi.zhang@columbiaspectator.com\"><i>junyi.zhang@columbiaspectator.com</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Melissa Wang is a Graphics reporter. She can be contacted at </i><a href=\"mailto:melissa.wang@columbiaspectator.com\"><i>melissa.wang@columbiaspectator.com</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Michelle Xu is a Graphics reporter. She can be contacted at </i><a href=\"mailto:michelle.xu@columbiaspectator.com\"><i>michelle.xu@columbiaspectator.com</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Jessica Li is the Graphics editor. She can be contacted at </i><a href=\"mailto:jessica.li@columbiaspectator.com\"><i>jessica.li@columbiaspectator.com</i></a><i>. </i>"
           }
         ],
         "headline": "Data shows Columbia has done little to accommodate students in other time zones. Their only hope falls on professors.",
         "date": "January 21st, 2021",
         "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Jun-Yi-Zhang\">Jun Yi Zhang</a>, <a href=\"https://www.columbiaspectator.com/contributors/melissa-wang/\">Melissa Wang</a>, and Michelle Xu\nEdited by <a href=\"https://www.columbiaspectator.com/contributors/jessica-li/\">Jessica Li</a>\nIllustration by Brenda Huang",
-        "methodology": "Spring 2020 course data was scraped from Vergil on July 20, 2020. Fall 2020 and Spring 2021 course data was scraped from Vergil on Jan 2, 2021. Course codes ending from 1000 to 4000 were categorized as undergraduate courses.",
+        "methodology": "Spring 2020 course data was scraped from Vergil on July 20, 2020. Fall 2020 and Spring 2021 course data was scraped from Vergil on Jan 2, 2021. Course codes ending from 1000 to 4000 were categorized as undergraduate courses. Data can be accessed <a href=\"https://github.com/graphicsdesk/timezone-data\">here</a>.",
         "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
         "USE_COVER_HED": false,
