@@ -56,15 +56,14 @@ document.addEventListener('DOMContentLoaded', function () {
 	})
 
 	if ($(window).width() < 450) {
-		margin = { top: 150, right: 150, bottom: 0, left: 300 },
-			width = window.innerWidth * 0.8 - margin.left - margin.right,
-			height = window.innerHeight * 0.8 - margin.top - margin.bottom;
+			height = window.innerWidth/4,
+			width = window.innerHeight/4;
 
 		// append the svg object to the body of the page
 		svg = d3.select("#my_dataviz")
 			.append("svg")
-			.attr("width", "50%")
-			.attr("height", "100%")
+			.attr("width", "100vh")
+			.attr("height", "50%")
 
 			.append("g")
 			.attr("transform",
