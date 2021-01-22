@@ -99,3 +99,21 @@
 		background-color: red;
 	}
 }
+
+@media (max-width: 470px) {
+	#scrolly-side article {
+		position: relative;
+		padding: 0;
+		max-width: calc(100% - 40px);
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 920px) {
+	#scrolly-side article {
+		position: relative;
+		padding: 0;
+		max-width: 70vw;
+		margin: 0 auto;
+	}
+}
