@@ -6,13 +6,84 @@
     "posthtml-expressions": {
       "root": "./src/partials",
       "locals": {
-        "top": [],
-        "body": [],
+        "top": [
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "lede-final-test.html"
+            }
+          }
+        ],
+        "body": [
+          {
+            "type": "text",
+            "value": "When the COVID-19 pandemic sent Columbia students home, late nights, social isolation, and general exhaustion became the norm for many international students. As the global pandemic rages on, the university continues to face the challenge of offering courses to students scattered around the world. After Spring 2020, the university began a number of initiatives to accommodate students studying from international time zones. However, many have raised questions about the effectiveness and sincerity of these efforts."
+          },
+          {
+            "type": "text",
+            "value": "Towards the end of the fall semester, Barnard College released a form to the student body that surveyed each student’s top priority classes they intended to take in the upcoming semester. Because the survey was released with the aim of providing feedback to Barnard when “planning for the Spring 2021 semester”, international students felt that this was one of the ways the College was trying to accommodate students of all time zones. However, for Katya Reichert, a Barnard freshman who spent the fall semester studying from the Philippines, the scheduled times of the top two courses that she indicated - Introduction to Art History II and Data Structures in Java - remained the same. “I don’t know if it was performative, or if not enough people chose the classes that I chose,” Katya speculates why the Barnard survey seemed to have made no change."
+          },
+          {
+            "type": "text",
+            "value": "Meanwhile, international students at Columbia saw fruitless outcomes in the school’s effort to accommodate their time zones. Back in August 2020, the Core Curriculum Office at Columbia College gave all students who were enrolled in Contemporary Civilization, Art Humanities and/or Music Humanities the opportunity to petition for a new section if their current section met between 10:00 p.m. and 7:00 a.m. in their local time zone. However, when Columbia College sophomore Kevin Sun Park requested to switch out of his Contemporary Civilization section that was scheduled for 4am in Seoul, his petition was rejected by the Core Office."
+          },
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "mid-scrolly.html"
+            }
+          },
+          {
+            "type": "text",
+            "value": "“I never doubted that I wouldn’t be able to switch to another section,” explains Kevin, “because I would have been taking classes from 4am to 6am. In what kind of world would a university force me to do classes at that time?”"
+          },
+          {
+            "type": "text",
+            "value": "Fortunately, many professors have implemented accommodations to ease the difficulty of learning in classes at unnatural hours, such as allowing asynchronous attendance, offering international-friendly office hours, and scheduling alternative exam times. According to Panu Hejmadi, a Barnard freshman who spent the fall semester in India, some professors offered a “separate office hour” specifically for international students. Not all professors, however, have shown the same level of compassion towards students abroad."
+          },
+          {
+            "type": "text",
+            "value": "Cindy Zheng, a SEAS Financial Engineering senior who will be spending her final semester in China, is struggling with her 4am major requirement course: Econometrics. Unable to rely on the university for accommodations, Cindy’s only hope of taking this course asynchronously falls on the professors. Yet, both professors teaching the course this semester are making lecture attendance mandatory, either by allocating 5% of the final grade to in-class participation, or failing those who do not attend."
+          },
+          {
+            "type": "text",
+            "value": "“I don’t think it’s really fair for international students to be forced to take these classes in a different time zone, especially [since] econometrics is a required class, not an elective.” Cindy emailed the chair of the Economics department stating this unfair disadvantage, but she has not heard back."
+          },
+          {
+            "type": "text",
+            "value": "To cope with the academic challenges created by the time difference, many international students are choosing to only fulfill the minimum credit requirement. Yet even then, this choice does not completely solve the problems international students face. “I was ridiculously burnt out for how little I was doing,” says Katya. Others are squeezing their classes to only two nights per week in order to maintain a regular schedule for the five other days."
+          },
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "ridgehisto.html"
+            }
+          },
+          {
+            "type": "text",
+            "value": "With such a wide variation of timezones, there is very little that the university can do to schedule classes in a way that accommodates all students, especially for large classes with few sections. Some international students recognize this. “There is no way that [the school] can plan a schedule that’s completely convenient to an international schedule,” says Panu."
+          },
+          {
+            "type": "text",
+            "value": "However, many do believe that there is much more that can be done in terms of accommodations to match up with the costly tuition being paid. With very little regulation from the school on measures professors should take, the responsibility and choice to accommodate students in different timezones falls entirely on the professors themselves."
+          },
+          {
+            "type": "text",
+            "value": "Wishes continue to be echoed amongst international students for more international-friendly discussion sections and asynchronous classes. Professors often state that synchronous attendance is needed for in-class activities, but Cindy recalls the compassion her Data Analytics professor from the fall semester showed. “He also did breakout rooms and polls in class, but he was willing to hold another session, maybe just an hour a week, for international students. He was trying so hard for us to feel like we’re still in the community and communicating with real people. It’s really disappointing to see that other professors are not doing the same.”"
+          },
+          {
+            "type": "text",
+            "value": "<i>Jun Yi Zhang is a Graphics deputy editor. She can be contacted at </i><a href=\"mailto:junyi.zhang@columbiaspectator.com\"><i>junyi.zhang@columbiaspectator.com</i></a><i>.</i>"
+          }
+        ],
+        "headline": "[we’re bad at headlines]",
+        "date": "January 21st, 2021",
+        "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Jun-Yi-Zhang\">Jun Yi Zhang</a>, <a href=\"https://www.columbiaspectator.com/contributors/melissa-wang/\">Melissa Wang</a>, and Michelle Xu\nEdited by <a href=\"https://www.columbiaspectator.com/contributors/jessica-li/\">Jessica Li</a>\nIllustration by Brenda Huang",
         "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
         "USE_COVER_HED": false,
         "IS_EMBED": false,
-        "DOC_URL": null
+        "DOC_URL": "https://docs.google.com/document/d/1xx35HM66bdom27g5kH0uOqXNUrn7T0CAJgCX-Ck8_yY/edit"
       }
     }
   }
