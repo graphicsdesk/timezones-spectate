@@ -100,7 +100,7 @@ $(document).ready(function () {
 
 function render(margin, svg) {
 
-	d3.csv("sl.csv", function (data) {
+	d3.csv(require("./sl.csv"), function (data) {
 
 		// List of groups (here I have one group per column)
 		var allGroup = d3.map(data, function (d) { return (d.npbysem) }).keys()
