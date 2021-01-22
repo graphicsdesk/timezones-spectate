@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
 					"translate(" + margin.left + "," + margin.top + ")");
 
 			d3.selectAll("svg")
-				.style("background-color", "#2B2F77");
+				.style("background-color", "#201c38");
 
 		}
 		render(margin, svg)
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
 				"translate(" + margin.left + "," + margin.top + ")");
 
 		d3.selectAll("svg")
-			.style("background-color", "#2B2F77");
+			.style("background-color", "#201c38");
 	}
 	render(margin, svg);
 

@@ -50,12 +50,13 @@ $fade-transition-duration: 0.25s;
 
 body {
   margin: 0;
+  background-color: #201c38;
 }
 
 h1,
 p {
   -webkit-font-smoothing: antialiased;
-  color: #121212;
+  color: #ffffff;
 }
 
 a {
@@ -184,7 +185,7 @@ header {
     font-weight: 600;
 
     a {
-      color: #121212;
+      color: #ffffff;
     }
   }
 
@@ -488,7 +489,7 @@ header {
 
   p {
     font-family: $graphik;
-    color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
     font-size: 15px;
     line-height: 22px;
   }
