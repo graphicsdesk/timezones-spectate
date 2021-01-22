@@ -86,6 +86,7 @@ d3.csv("sl.csv", function(data) {
 	function handleStepEnter(response) {
 		console.log(response)
 		updateChart(response.index)
+		response.element.classList.add("is-active");
 	}
 
 	function updateChart(index) {
@@ -158,7 +159,7 @@ d3.csv("sl.csv", function(data) {
 	
 
 	function init() {
-		Stickyfill.add(d3.select('.sticky').node());
+		//Stickyfill.add(d3.select('.sticky').node());
 
 		// 1. force a resize on load to ensure proper dimensions are sent to scrollama
 		handleResize();

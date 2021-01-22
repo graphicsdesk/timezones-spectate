@@ -43,7 +43,7 @@ function init() {
 
     scroller
         .setup({
-            step: ".step",
+            step: "#g-lede-final-final-box .step",
             offset: 0.75,
             debug: false
         })
