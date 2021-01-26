@@ -5,14 +5,12 @@
 	}
 
 	body {
-
+		margin: 0px;
 	}
 
-	#scrolly-side .scrolly {
+	#scrolly-side {
 		position: relative;
-		max-width: 80vw;
-		margin: 3rem auto;
-		padding: 1rem;
+		padding-bottom: 1rem;
 	}
 
 	p {
@@ -30,8 +28,8 @@
 
 	article {
 		position: relative;
-		padding-left: 43vw;
-		max-width: 26vw;
+		padding-left: 57vw;
+		max-width: 30vw;
 	}
 
 	.step {
