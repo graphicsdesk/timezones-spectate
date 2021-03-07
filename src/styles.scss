@@ -6,3 +6,23 @@
 .story-top > .graphic > #background {
   height: auto !important;
 }
+
+@media only screen and (max-width: 500px) {
+  #g-lede-final-final-desktop,#g-lede-final-final-tablet, #g-ridgehisto-_1_-desktop, #g-ridgehisto-_1_-tablet {
+    display:none;
+  }
+  #my_dataviz {
+    position:relative;
+    top:40vw;
+    right:25vh;
+
+    svg {
+      transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+    }
+  }
+  .sticky {
+    height:100% !important;
+    overflow-x:hidden;
+  }
+}

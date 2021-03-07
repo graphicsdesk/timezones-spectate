@@ -9,25 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	$(window).on('resize', function () {
 		var nw = $(window).width();
-		if (nw < 450) {
-			margin = { top: 150, right: 150, bottom: 0, left: 300 },
-				width = window.innerWidth * 0.8 - margin.left - margin.right,
-				height = window.innerHeight * 0.8 - margin.top - margin.bottom;
-
-			d3.select("#my_dataviz")
-				.select("svg")
-				.remove()
-			// append the svg object to the body of the page
-			svg = d3.select("#my_dataviz")
-				.append("svg")
-				.attr("width", "50%")
-				.attr("height", "100%")
-				.append("g")
-				.attr("transform",
-					"translate(" + "0" + "," + "0" + ")");
-
-			d3.selectAll('svg').attr("transform", "rotate(90)");
-			d3.selectAll('g.tick').attr("transform", "rotate(-90)");
+		if (nw < 500) {
+			
 
 		} else {
 			margin = { top: 30, right: 80, bottom: 30, left: 80 },
@@ -55,19 +38,19 @@ document.addEventListener('DOMContentLoaded', function () {
 		render(margin, svg)
 	})
 
-	if ($(window).width() < 450) {
-			height = window.innerWidth/4,
-			width = window.innerHeight/4;
+	if ($(window).width() < 500) {
+			height = window.innerWidth/1.5,
+			width = window.innerHeight/1.5;
 
 		// append the svg object to the body of the page
 		svg = d3.select("#my_dataviz")
 			.append("svg")
-			.attr("width", "100vh")
-			.attr("height", "50%")
+			.attr("width", "80vh")
+			.attr("height", "100vw")
 
 			.append("g")
-			.attr("transform",
-				"translate(" + "0" + "," + "0" + ")");
+			.attr("style",
+				"transform:translate(" + "0" + "," + "0" + ")");
 	}
 	else {
 		// set the dimensions and margins of the graph
@@ -90,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 	render(margin, svg);
 
-	if ($(window).width() < 450) {
+	if ($(window).width() < 500) {
 		d3.selectAll('svg').attr("transform", "rotate(90)");
 		d3.selectAll('g.tick').attr("transform", "rotate(-90)");
 	}
