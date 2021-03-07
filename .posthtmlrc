@@ -17,15 +17,11 @@
         "body": [
           {
             "type": "text",
-            "value": "When the COVID-19 pandemic sent home Columbia’s undergraduate students, late nights, social isolation, and general exhaustion became the norm for those who returned to the opposite side of the world."
+            "value": "As the Covid-19 pandemic unfolded, universities across the nation raced to draw up plans to support a largely-remote semester. For Columbia, this is no easy feat, especially considering that international students--many of whom returned to their home countries at the onset of the pandemic--make up 18% of the undergraduate population at Columbia. With students scattered across <a href=\"https://president.columbia.edu/news/message-president-bollinger-start-academic-year\">more than 115 countries</a> and a wide variation of time zones, schedules that work for those in China (GMT+8) are bound to be a problem for those in France (GMT+2)."
           },
           {
             "type": "text",
-            "value": "<b>[impossible to accommodate all time zones]</b>"
-          },
-          {
-            "type": "text",
-            "value": "Yet, even if course times are scheduled to be more accommodating to the majority of international students in Asia, this new set of course offerings would pose a challenge to those in another continent. With remote students scattered across <a href=\"https://president.columbia.edu/news/message-president-bollinger-start-academic-year\">more than 115 countries</a> and a wide variation of time zones, schedules that work for those in China (GMT+8) are bound to be a problem for those in France (GMT+2)."
+            "value": "International students also recognize and understand the difficulties in accommodating all time zones; “there’s a limit to what they [the University] can do,” Whitney Deng, a Barnard first-year currently studying from Hong Kong noted."
           },
           {
             "type": "graphic",
@@ -35,27 +31,13 @@
           },
           {
             "type": "text",
-            "value": "International students recognize and understand the difficulties in accommodating all time zones; “there’s a limit to what they [the University] can do,” Whitney Deng, a Barnard first-year currently studying from Hong Kong noted."
+            "value": "International students, however, are not evenly distributed across all twenty-four time zones. According to data from Columbia’s International Students and Scholars Office, nearly half of international students are from places such as China, South Korea, India, Singapore, Hong Kong, Thailand, Japan, Vietnam, the Philippines, and Taiwan. For these students, taking classes from their home countries during the pandemic means that less than 20 percent of the undergraduate classes offered during the Fall 2020 semester would occur between 9 a.m. and 9 p.m. for them."
           },
           {
-            "type": "text",
-            "value": "<b>[HOWEVER: shifting the convo to the most “popular” regions] </b>"
-          },
-          {
-            "type": "text",
-            "value": "These students come from time zones that are at least 12 hours ahead of Eastern Standard Time, from places such as China, South Korea, Australia, and Singapore. Together, they make up approximately 44% of the international undergraduate population."
-          },
-          {
-            "type": "text",
-            "value": "(rough analysis)"
-          },
-          {
-            "type": "text",
-            "value": "<b> Graphic: waffle</b>"
-          },
-          {
-            "type": "text",
-            "value": "<b>[visa & travel issues]</b>"
+            "type": "graphic",
+            "value": {
+              "asset": "waffle.html"
+            }
           },
           {
             "type": "text",
@@ -75,19 +57,11 @@
           },
           {
             "type": "text",
-            "value": "<b>[graphic: table]</b>"
-          },
-          {
-            "type": "text",
-            "value": "<b>[quick thing about physical repercussions]</b>"
+            "value": "<b>[Graphic: table. Link: </b><a href=\"https://datawrapper.dwcdn.net/4ulv9/2/\"><b>https://datawrapper.dwcdn.net/4ulv9/2/</b></a><b>]</b>"
           },
           {
             "type": "text",
             "value": "Besides the myriad of travel restrictions international students face into the present,  these students must also continue to cope with a disrupted circadian rhythms. With these changes come a host of potential health issues. Studies have shown that <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7375451/\">alterations in daily routine</a>, such as modifying one’s sleep schedule in order to accommodate a time difference, can harm one’s physical and mental health. A broken sleep pattern can result in <a href=\"https://www.columbiaspectator.com/the-eye/2020/12/04/the-geographical-temporal-and-institutional-distance-between-international-students-and-columbia/\">poor study efficiency</a> as well as <a href=\"https://www.nature.com/articles/s41398-020-0694-0\">negative mood changes and fatigue</a>."
-          },
-          {
-            "type": "text",
-            "value": "<b>[schools’ effort to help]</b>"
           },
           {
             "type": "text",
@@ -106,10 +80,6 @@
             "value": "The School of Engineering and School of General Studies have not distributed surveys nor offered petition options."
           },
           {
-            "type": "text",
-            "value": "[<b>shit course offerings</b>]"
-          },
-          {
             "type": "graphic",
             "value": {
               "asset": "mid-scrolly.html"
@@ -121,15 +91,11 @@
           },
           {
             "type": "text",
-            "value": "<b>[recs for asynchronous teaching across time zones]</b>"
+            "value": "Professors have taken their own initiatives to ease the difficulty of learning in classes at unnatural hours, such as allowing asynchronous attendance, offering international-friendly office hours, and scheduling alternative exam times. Last Fall, Columbia’s Center for Teaching and Learning also published a <a href=\"https://ctl.columbia.edu/resources-and-technology/teaching-with-technology/teaching-online/asynchronous-learning/\">guideline for asynchronous teaching across time zones</a>."
           },
           {
             "type": "text",
-            "value": "Professors have also taken their own initiatives to ease the difficulty of learning in classes at unnatural hours, such as allowing asynchronous attendance, offering international-friendly office hours, and scheduling alternative exam times. Last Fall, Columbia’s Center for Teaching and Learning also published a guideline for asynchronous teaching across time zones."
-          },
-          {
-            "type": "text",
-            "value": "However, the University still does not require professors to allow asynchronous attendance, meaning some students are still required to make the choice between academics, health, relationships, and extracurricular interests. <b>[additional/optional note] </b>"
+            "value": "However, the University still does not require professors to allow asynchronous attendance, meaning some students are still required to make the choice between academics, health, relationships, and extracurricular interests."
           },
           {
             "type": "text",
@@ -152,7 +118,7 @@
             "value": "<i>Jessica Li is the Graphics editor. She can be contacted at </i><a href=\"mailto:jessica.li@columbiaspectator.com\"><i>jessica.li@columbiaspectator.com</i></a><i>. </i>"
           }
         ],
-        "headline": "[You want to add COVID-19 to headline to give relevancy + SEO keyword] [As COVID-19 carries into the new semester, Columbia does little to help struggling international students learn across different time zones.]",
+        "headline": "[Please help with this headline….As COVID-19 carries into the new semester, Columbia does little to help struggling international students learn across different time zones? ]",
         "date": "March XX, 2021",
         "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Jun-Yi-Zhang\">Jun Yi Zhang</a>, <a href=\"https://www.columbiaspectator.com/contributors/melissa-wang/\">Melissa Wang</a>, <a href=\"https://www.columbiaspectator.com/contributors/jessica-li/\">Jessica Li</a> and <a href=\"https://www.columbiaspectator.com/contributors/michelle-xu/\">Michelle Xu</a>\nIllustration by <a href=\"https://www.columbiaspectator.com/contributors/brenda-huang/\">Brenda Huang</a>",
         "methodology": "Spring 2020 course data was scraped from Vergil on July 20, 2020. Fall 2020 and spring 2021 course data were scraped from Vergil on Jan. 2, 2021. Course codes ending from 1000 to 4000 were categorized as undergraduate courses; those without schedule information are unaccounted for. Data can be accessed <a href=\"https://github.com/graphicsdesk/timezone-data\">here</a>. <a href=\"https://docs.google.com/spreadsheets/d/1N3q2Om0bC-GxYDr0RKgg-hERaqGdbkV81pzY_oZrVDg/edit?usp=sharing\">Major requirement courses</a> include those of the most popular 10 majors from each undergraduate college. Waffle chart time zones by country indicates that of capital city.",
