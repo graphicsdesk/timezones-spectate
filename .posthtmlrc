@@ -49,7 +49,7 @@
           },
           {
             "type": "text",
-            "value": "There is an extra challenge for those who possess functioning student visas in China: Presidential proclamations have suspended entry into the United States of noncitizens who have been to China anytime during the 14-days prior to their attempted entry. As such, Chinese international students must stop by a third country for at least 14 days before they are allowed into the United States."
+            "value": "There is an extra challenge for those who possess functioning student visas in China, Iran, the European Schengen area, United Kingdom, Republic of Ireland, Brazil, and South Africa: Presidential proclamations have suspended entry into the United States of noncitizens who have been to these locations anytime during the 14-days prior to their attempted entry. As such, these international students must stop by a third country for at least 14 days before they are allowed into the United States."
           },
           {
             "type": "text",
@@ -122,7 +122,7 @@
             "value": "<i>Interactives were made with the help of Hong Sen Du, Head of Newsroom Development. He can be contacted at </i><a href=\"mailto:hongsen.du@columbiaspectator.com\"><i>hongsen.du@columbiaspectator.com</i></a><i>. </i>"
           }
         ],
-        "headline": "While COVID-19 keeps them out of New York, international students struggle to learn across time zones",
+        "headline": "While COVID-19 keeps them out of New York City, international students struggle to learn across time zones",
         "date": "March XX, 2021",
         "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Jun-Yi-Zhang\">Jun Yi Zhang</a>, <a href=\"https://www.columbiaspectator.com/contributors/melissa-wang/\">Melissa Wang</a>, <a href=\"https://www.columbiaspectator.com/contributors/jessica-li/\">Jessica Li</a> and <a href=\"https://www.columbiaspectator.com/contributors/michelle-xu/\">Michelle Xu</a>\nIllustration by <a href=\"https://www.columbiaspectator.com/contributors/brenda-huang/\">Brenda Huang</a>",
         "methodology": "Spring 2020 course data was scraped from Vergil on July 20, 2020. Fall 2020 and spring 2021 course data were scraped from Vergil on Jan. 2, 2021. Course codes ending from 1000 to 4000 were categorized as undergraduate courses; those without schedule information are unaccounted for; data can be accessed <a href=\"https://github.com/graphicsdesk/timezone-data\">here</a>. <a href=\"https://docs.google.com/spreadsheets/d/1N3q2Om0bC-GxYDr0RKgg-hERaqGdbkV81pzY_oZrVDg/edit?usp=sharing\">Major requirement courses</a> include those of the most popular 10 majors from each undergraduate college. Waffle chart time zones by country indicate that of capital cities; calculations can be accessed <a href=\"https://docs.google.com/spreadsheets/d/1sfCbhILzvijXVrOofaNPe_ZlhU3klkroBchIgcMq04g/edit?usp=sharing\">here</a>.",

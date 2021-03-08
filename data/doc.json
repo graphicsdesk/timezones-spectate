@@ -1,5 +1,5 @@
 {
-  "headline": "While COVID-19 keeps them out of New York, international students struggle to learn across time zones",
+  "headline": "While COVID-19 keeps them out of New York City, international students struggle to learn across time zones",
   "date": "March XX, 2021",
   "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Jun-Yi-Zhang\">Jun Yi Zhang</a>, <a href=\"https://www.columbiaspectator.com/contributors/melissa-wang/\">Melissa Wang</a>, <a href=\"https://www.columbiaspectator.com/contributors/jessica-li/\">Jessica Li</a> and <a href=\"https://www.columbiaspectator.com/contributors/michelle-xu/\">Michelle Xu</a>\nIllustration by <a href=\"https://www.columbiaspectator.com/contributors/brenda-huang/\">Brenda Huang</a>",
   "top": [
@@ -45,7 +45,7 @@
     },
     {
       "type": "text",
-      "value": "There is an extra challenge for those who possess functioning student visas in China: Presidential proclamations have suspended entry into the United States of noncitizens who have been to China anytime during the 14-days prior to their attempted entry. As such, Chinese international students must stop by a third country for at least 14 days before they are allowed into the United States."
+      "value": "There is an extra challenge for those who possess functioning student visas in China, Iran, the European Schengen area, United Kingdom, Republic of Ireland, Brazil, and South Africa: Presidential proclamations have suspended entry into the United States of noncitizens who have been to these locations anytime during the 14-days prior to their attempted entry. As such, these international students must stop by a third country for at least 14 days before they are allowed into the United States."
     },
     {
       "type": "text",
