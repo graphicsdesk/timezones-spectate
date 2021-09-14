@@ -1,3 +1,5 @@
+import * as d3 from 'd3';
+
 const container = d3.select('#scrolly-side');
 var figure = container.select('figure');
 var article = container.select('article');
