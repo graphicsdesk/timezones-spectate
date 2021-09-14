@@ -1,3 +1,7 @@
+import scrollama from "scrollama";
+import Stickyfill from "stickyfill";
+import * as d3 from "d3";
+
 var background = d3.select("#background");
 var step = d3.selectAll(".step");
 
