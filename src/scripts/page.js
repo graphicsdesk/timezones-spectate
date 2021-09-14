@@ -19,12 +19,8 @@ function init() {
 /* These are selectors for important elements */
 
 // SECTION_MAIN_SELECTOR is the node on the page we want to replace
-const SECTION_MAIN_SELECTOR = 'section#main';
-
-// ARTICLE_SELECTOR is where Arc Publishing puts the actual article content
-const ARTICLE_SELECTOR =
-  '.pb-f-article-article-body > .row > .col-xs-12 > .ab-article-body > .ab-article-content > article';
-
+const SECTION_MAIN_SELECTOR = 'div#fusion-app';
+const ARTICLE_SELECTOR = 'div#fusion-app > div > div';
 // The comment section is accidentally destroyed in the hoisting process, so
 // we want to store it away and add it back later
 const COMMENTS_SELECTOR = '.pb-f-article-disqus-new';
@@ -57,7 +53,7 @@ function hoistArticle() {
 
 // Runs hoistArticle() and stops RAF when necessary elements exist.
 // Stops after 5 seconds of trying.
-const TRY_TIME = 5000;
+const TRY_TIME = 3000;
 let start = null;
 function prepareHoist(timestamp) {
   if (document.body && document.querySelector(SECTION_MAIN_SELECTOR)) {
