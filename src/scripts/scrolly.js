@@ -1,9 +1,11 @@
 import scrollama from "scrollama";
 import Stickyfill from "stickyfill";
+
 import * as d3 from "d3";
 
 var background = d3.select("#background");
 var step = d3.selectAll(".step");
+var stickyfill = Stickyfill();
 
 var scroller = scrollama();
 
@@ -37,7 +39,7 @@ function handleResize() {
 
 function stepupStickyfill() {
     d3.selectAll(".sticky").each(function () {
-        Stickyfill.add(this);
+        stickyfill.add(this);
     })
 }
 
