@@ -88,7 +88,8 @@ export default function () {
   // Replace main page section with this project if we are on a Spectator story
   // page and the project is not an embed
   if (isOnSpectatorPage && !isOnContributorPage && !spectateConfig.IS_EMBED) {
-    window.requestAnimationFrame(prepareHoist);
+    // window.requestAnimationFrame(prepareHoist);
+    init();
   } else {
     init();
   }

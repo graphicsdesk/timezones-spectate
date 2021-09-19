@@ -1,10 +1,12 @@
-import * as d3 from 'd3';
-
+// import * as d3 from 'd3';
+import scrollama from "scrollama";
 const container = d3.select('#scrolly-side');
 var figure = container.select('figure');
 var article = container.select('article');
 const stepSel = article.selectAll('.step');
 
+
+let width, height;
 
 document.addEventListener('DOMContentLoaded', function () {
 	var margin, svg;
@@ -83,17 +85,16 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function render(margin, svg) {
-
 	d3.csv(require("./sl.csv"), function (data) {
+		
 
 		// List of groups (here I have one group per column)
-		var allGroup = d3.map(data, function (d) { return (d.npbysem) }).keys()
+		var allGroup = ['npbysem', 'houor']//d3.map(data, function (d) { return (d.npbysem) }).keys()
 
 		// X axis: scale and draw:
 		var x = d3.scaleLinear()
 			.domain([0, 24])
 			.range([0, width]);
-
 		let xAxisGenerator = d3.axisBottom(x);
 		xAxisGenerator.ticks(25);
 		xAxisGenerator.tickSize(0);

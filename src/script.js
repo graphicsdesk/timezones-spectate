@@ -8,6 +8,8 @@ import { spectate as spectateConfig } from '../package.json';
 
 initiatePage();
 
+import './scripts/scriptsl';
+
 // Fade in navbar at scroll trigger
 
 const navbar = document.getElementById('navbar');
