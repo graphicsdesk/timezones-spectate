@@ -1,5 +1,6 @@
 // import * as d3 from 'd3';
 import scrollama from "scrollama";
+import * as d3 from 'd3'; // specified as d3 version 4 in package.json. the <script src="..."> import was being unreliable
 const container = d3.select('#scrolly-side');
 var figure = container.select('figure');
 var article = container.select('article');

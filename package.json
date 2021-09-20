@@ -17,7 +17,7 @@
     "sass": "^1.26.5"
   },
   "dependencies": {
-    "d3": "^7.0.1",
+    "d3": "^4.13.0",
     "intersection-observer": "^0.10.0",
     "scrollama": "^2.2.2",
     "stickyfill": "^1.1.1-strict",
