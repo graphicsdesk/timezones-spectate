@@ -5,10 +5,9 @@ var figure = container.select('figure');
 var article = container.select('article');
 const stepSel = article.selectAll('.step');
 
-
 let width, height;
 
-document.addEventListener('DOMContentLoaded', function () {
+{
 	var margin, svg;
 
 	$(window).on('resize', function () {
@@ -45,7 +44,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	if ($(window).width() < 500) {
 			height = window.innerWidth/1.5,
 			width = window.innerHeight/1.5;
-
 		// append the svg object to the body of the page
 		svg = d3.select("#my_dataviz")
 			.append("svg")
@@ -82,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		d3.selectAll('g.tick').attr("transform", "rotate(-90)");
 	}
 
-});
+}
 
 function render(margin, svg) {
 	d3.csv(require("./sl.csv"), function (data) {
