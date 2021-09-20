@@ -30,6 +30,7 @@
 		position: relative;
 		padding-left: 57vw;
 		max-width: 30vw;
+		box-sizing: content-box;
 	}
 
 	.step {
@@ -49,6 +50,7 @@
 		box-shadow: 0 2px 5px 0 #e4e4e4;
 		width: calc(100% - 40px);
 		max-width: 470px;
+		box-sizing: content-box;
 	}
 
 	.step:last-of-type {
